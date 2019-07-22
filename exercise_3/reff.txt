@@ -1,6 +1,8 @@
 https://www.w3schools.com/tags/tag_header.asp
 https://www.w3schools.com/tags/tag_main.asp
 https://www.w3schools.com/tags/tag_footer.asp
+https://www.w3schools.com/cssref/pr_dim_width.asp
+https://www.w3schools.com/cssref/pr_dim_height.asp
 https://www.w3schools.com/tags/tag_nav.asp
 https://www.w3schools.com/css/css_positioning.asp
 https://www.w3schools.com/cssref/pr_background-image.asp
