@@ -1,3 +1,18 @@
+/* Aligh CSS accordingly 
+    -> First: Elements whcih are styled without class (body, div, etc)
+    -> Second: Elements with Classes
+    -> Third: Elements with IDs
+
+    ----- OR ----
+
+    Position css at it is in the HTML -> I use it for better navigation and I would advise you to use it as well but it's your preference :
+        body {}
+        header{}
+        logo{}
+        header-text{}
+        ...etc
+*/
+
 body{
     font-family: Helvetica;
     font-size:22px;
@@ -6,26 +21,26 @@ body{
     opacity: 0.9;
 }
 .header{  
-    display:flex;
+    display:flex;  /* No */
     position: fixed;
 }
 .header-text{
-    display:flex;  
-    margin-right:10px;
-    text-decoration: underline; 
+    display:flex;  /* No */
+    margin-right:10px; /* No */
+    text-decoration: underline; /* No */
 }
 .logo{
     height: 50px;
     margin-left:10px;
-    margin-right:1280px;
+    margin-right:1280px; /* No */
 }
-.mission{
+.mission{ /* Not needed */
     margin-right: 20px;
 }
-.featured{
+.featured{ /* Not needed */
     margin-right:20px;
 }
-.locations{
+.locations{ /* Not needed */
     margin-right:10px;
 }
 .mission{
@@ -33,8 +48,7 @@ body{
     text-align: center;
     top: 69px;   
 }
-.mission-img{
-    
+.mission-img{ 
     width: 1200px;
     height: 700px;
     border-bottom: 1px solid seashell;
@@ -43,7 +57,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /* Not needed */
   background-color: black; 
   width: 1200px;
 }
