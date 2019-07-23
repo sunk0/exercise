@@ -19,41 +19,33 @@ body{
     color:seashell; 
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
-.header{  
-    display:flex;  /* No */
-    position: fixed;
+header{
+    position: fixed; 
+    width: 100% 
 }
-.header-text{
-    display:flex;  /* No */
-    margin-right:10px; /* No */
-    text-decoration: underline; /* No */
+nav{
+    position: absolute;
+    right:10px;  
 }
-.logo{
-    height: 50px;
-    margin-left:10px;
-    margin-right:1280px; /* No */
-}
-.mission{ /* Not needed */
-    margin-right: 20px;
-}
-.featured{ /* Not needed */
-    margin-right:20px;
-}
-.locations{ /* Not needed */
-    margin-right:10px;
-}
-.mission{
+main{
+    border-top: 1px solid seashell;
     position: relative;
     text-align: center;
     top: 69px;   
 }
-.mission-img{ 
+.logo{  
+    position: absolute;
+    height: 50px;
+    left:10px;
+}
+.main-img{ 
     width: 1200px;
     height: 700px;
     border-bottom: 1px solid seashell;
 }
-.mission-text{
+.main-text{
   position: absolute;
   top: 50%;
   left: 50%;
