@@ -21,26 +21,16 @@ main{
     text-align: center;
     top: 69px;   
 }
+footer{
+    text-align: left;
+    margin-left:20px;
+    margin-top: 15px;
+}
 .logo{  
     position: absolute;
     height: 50px;
     left:10px;
 }
-
-
-
-
-
-
-
-
-
-.first-section{
-    
-    
-}
-
-
 .first-section-main-img{ 
     background-image: url("img-mission-background.jpg");
     background-color: #cccccc;
@@ -50,6 +40,7 @@ main{
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
+    margin:auto;
     
 }
 .first-section-main-text{
@@ -66,25 +57,59 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .second-section{
- 
+    width: 1000px;
+    margin:auto;
+   
+}
+.second-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.second-section-img-text2{
+   
+}
+.second-section-img-text{
+margin-right:30px;
+
 }
 .second-section-img{
     height: 200px;
-    weight: 300px;
+    width: 300px;
+}
+.second-section-text{
+    margin-top: 10px;
+}
+
+.third-section-main-img{ 
+    background-image: url("img-locations-background.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    margin:auto;
+    
+}
+.third-section{
+    
+}
+.third-section-container{
+    display:flex;
+    justify-content: center; 
+    
+}
+.third-section-main-text{
+ 
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    opacity:1;
+  
+}
+.third-section-bottom-text{
+    height: 200px;
 }
