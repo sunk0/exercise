@@ -13,18 +13,18 @@ header{
 }
 nav{
     position: absolute;
-    right:10px;  
+    right:20px;
 }
 main{
     border-top: 1px solid seashell;
     position: relative;
     text-align: center;
-    top: 69px;   
+    top: 69px;  
 }
 footer{
     text-align: left;
     margin-left:20px;
-    margin-top: 15px;
+    padding-top: 40px;
 }
 .logo{  
     position: absolute;
@@ -40,8 +40,7 @@ footer{
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
-    margin:auto;
-    
+    margin:auto; 
 }
 .first-section-main-text{
     width: 100%;
@@ -51,28 +50,19 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: black;
-    
+    background-color: black;  
 }
-
-
-
 .second-section{
     width: 1000px;
-    margin:auto;
-   
+    margin:auto; 
 }
 .second-section-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.second-section-img-text2{
-   
-}
 .second-section-img-text{
 margin-right:30px;
-
 }
 .second-section-img{
     height: 200px;
@@ -81,34 +71,20 @@ margin-right:30px;
 .second-section-text{
     margin-top: 10px;
 }
-
 .third-section-main-img{ 
     background-image: url("img-locations-background.jpg");
-    background-color: #cccccc;
     height: 500px;
     width: 1200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
     margin:auto;
-    
 }
-.third-section{
-    
-}
-.third-section-container{
+.third-section-container{ 
     display:flex;
-    justify-content: center; 
-    
+    justify-content: space-evenly;
+    opacity:1;
 }
 .third-section-main-text{
- 
     background-color: black;
-    width: 300px;
-    margin-right: 40px;
-    opacity:1;
-  
+    width: 300px  
 }
 .third-section-bottom-text{
     height: 200px;
