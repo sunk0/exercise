@@ -10,19 +10,19 @@ body{
 header{
     position: fixed; 
     width: 100%;
-    z-index: 1; /* GOOGLE ME !!! */
-    background-color: black;  /* Was missing */
-    height: 69px; /* Always define width and height */
+    z-index: 1;
+    background-color: black; 
+    height: 69px; 
 }
 nav{
     position: absolute;
     right:20px;
 }
-nav > a { /* This selector selects all "a" elements nested within nav - this is how you should have styled them - it was in the references*/ 
-    color: seashell /* The color was blue - it should have been seashell */ 
+nav > a {
+    color: seashell
 }
 main{
-    border-top: 1px solid seashell; /* Does it say border top ? */
+    border-top: 1px solid seashell;
     position: relative;
     text-align: center;
     top: 69px;  
@@ -39,12 +39,9 @@ footer{
 }
 .first-section-main-img{ 
     background-image: url("img-mission-background.jpg");
-    /* background-color: #cccccc; why ? */
     height: 700px;
     width: 1200px;
     background-position: center;
-    /* background-repeat: no-repeat; why? */
-    /* background-size: auto; why ? */
     position: relative;
     margin:auto; 
 }
@@ -54,9 +51,9 @@ footer{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* if it works ok but make sure you knoow what it does */ 
     color: white;
     background-color: black;  
+    transform: translate(-50%, -50%);
 }
 .second-section{
     width: 1000px;
